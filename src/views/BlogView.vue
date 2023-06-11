@@ -48,10 +48,25 @@
       in the game it will be easier to get changing values, so I ended up with 2 returning values
       by iterating the ROM data, now I will take a break, but my next challenge will be using the 
       I/O</p>
+      <h2>Third encounter</h2>
+      <p>Time for I/O, controller is read at $4016, second one at $4017, each of the bits is
+      interpreted as A, B, Select, Start, Up, Down, Left, Right respectively.</p>
+      <p>I tried reading the inputs and changing memory as a response, but the results were, very
+      bad to say the least, so I have a new objective, I'll assume my understanding of basic
+      opcodes is enought, as well as my understanding of controller inputs, so I'll jump into
+      learning iNES or NES 2.0 formats for showing graphics on the screen, however this also
+      requires to create .chr files to load sprite and background characters, which also requires me
+      to make sprites in the correct format...</p>
+      <p>To learn without going crazy or giving up, I searched resources online, and found a guide
+      for exactly most of whay I need, however the video shows a program called YY-CHR but this is
+      Windows only, so I'm now searching for a solution, probably will end up using Bottles</p>
+      <h2>Resources</h2>
       <ul>
+          <li>https://youtube.com/playlist?list=PLgvDB6LWam2WvoFvh8tlUqbqw92qWM0aP</li>
           <li>https://www.nesdev.org/NESDoc.pdf</li>
           <li>http://www.6502.org/tutorials/6502opcodes.html#ADC</li>
           <li>https://dwheeler.com/6502/oneelkruns/asm1step.html</li>
+          <li>https://github.com/InkboxSoftware/NESGuide</li>
       </ul>
     </div>
   </div>
