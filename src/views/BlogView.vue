@@ -43,6 +43,16 @@
       <p>After making some basic code, I wanted to create a TicTacToe "game", but for some reason 
       ended up trying to get random numbers, so I started a mission of writting a random number 
       generator in assembly</p>
+      <p>After trying quite a lot, I couldn't make a good random generator, but I also believe 
+      generating one will be easier with more changing registers, say with more moving parts 
+      in the game it will be easier to get changing values, so I ended up with 2 returning values
+      by iterating the ROM data, now I will take a break, but my next challenge will be using the 
+      I/O</p>
+      <ul>
+          <li>https://www.nesdev.org/NESDoc.pdf</li>
+          <li>http://www.6502.org/tutorials/6502opcodes.html#ADC</li>
+          <li>https://dwheeler.com/6502/oneelkruns/asm1step.html</li>
+      </ul>
     </div>
   </div>
 </template>
